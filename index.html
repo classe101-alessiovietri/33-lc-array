@@ -3,11 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Template HTML CSS JS</title>
+        <title>JS Array</title>
 
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+
+        <h1>
+            Lista della spesa
+        </h1>
+        <ul id="grocery-list"></ul>
+
+        <form id="new-product-form" action="">
+            <div>
+                <label for="product">
+                    Nuovo prodotto
+                </label>
+            </div>
+            <div>
+                <input type="text" name="product" id="product" placeholder="Inserisci il nuovo prodotto..." required>
+            </div>
+
+            <button>
+                Aggiungi
+            </button>
+        </form>
         
         <script src="js/scripts.js" type="text/javascript"></script>
     </body>
